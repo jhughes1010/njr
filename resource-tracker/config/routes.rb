@@ -1,4 +1,8 @@
 ResourceTracker::Application.routes.draw do
+  get "import/index"
+  
+  get "import/import"
+
   get "main/import"
 
   get "main/display"
