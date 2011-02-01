@@ -1,3 +1,14 @@
+== Resource Tracker ==
+csv import details
+------------------
+The csv file is located at /import/xxx.csv
+Column definitaions are as follows: 
+0-4 are department, employee, task, project
+5-7 are actual time spent in man-months for the prior three months
+8-10 are forecast values for the prior three months - theses are not imported to the database
+11-25 are the forecast data for the employee on this line entry for the next 15 months
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
